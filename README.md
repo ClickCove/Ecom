@@ -11,7 +11,7 @@ Welcome to Click Cove, an e-commerce website that integrates end-to-end AI funct
 
 ## Host Link
 
-The project is hosted at [[https://click-cove.vercel.app/](https://click-cove.vercel.app/).](https://clickcoveecom.vercel.app/)
+The project is hosted at https://clickcoveecom.vercel.app/
 
 ## Contributing
 
