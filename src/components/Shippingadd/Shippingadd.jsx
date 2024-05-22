@@ -2,6 +2,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { HiOutlineArrowCircleRight } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 
 const fields = [
   {
@@ -105,14 +106,16 @@ export default function Shippingadd() {
             </div>
 
             <div className="w-full text-left">
+            <Link to="/">
               <button
                 type="submit"
                 className="flex justify-center items-center gap-2 w-full py-3 px-4 bg-[#000000] text-white text-md font-bold border border-[#000000] rounded-md ease-in-out duration-150 shadow-slate-600 hover:bg-[#27252B] hover:text-gray-400 lg:m-0 md:px-6"
                 title="Confirm Order"
               >
-                <span>Submit</span>
+                <span>Checkout</span>
                 <HiOutlineArrowCircleRight size={20} />
               </button>
+              </Link>
             </div>
           </form>
         </div>

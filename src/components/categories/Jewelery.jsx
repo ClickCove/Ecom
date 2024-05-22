@@ -23,10 +23,11 @@ export default function Jewelery() {
         <div className="flex gap-10 overflow-scroll no-scrollbar overflow-x-scroll">
           {products.map((product) => (
             <ProductCard
-              key={product.id}
-              imageUrl={product.image}
-              productName={product.title}
-            />
+            key={product.id}
+            id={product.id}
+            imageUrl={product.image}
+            productName={product.title}
+          />
           ))}
         </div>
       </div>

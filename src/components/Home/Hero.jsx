@@ -3,9 +3,9 @@ import React from 'react'
 function Hero() {
   return (
     <>
-    <div class="relative w-full">
-  <div class="relative isolate z-0 px-6 pt-12 lg:px-8">
-    <div class="relative mx-auto max-w-2xl py-24">
+    <div className="relative w-full">
+  <div className="relative isolate z-0 px-6 pt-12 lg:px-8">
+    <div className="relative mx-auto max-w-2xl py-24">
       {/* <div class="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
         <svg
           class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -32,24 +32,24 @@ function Hero() {
           </defs>
         </svg>
       </div> */}
-      <div class="text-center">
-        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-        Discover. Click. Covet.
+      <div className="text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        Discover. Click. Cove.
 
         </h1>
-        <p class="mt-6 text-lg leading-8 text-white">
+        <p className="mt-6 text-lg leading-8 text-white">
         At ClickCove, we've created your digital harbor for all things fabulous. Dive into our virtual cove where every click unveils a treasure trove of coveted finds. Explore a curated collection of fashion, lifestyle, and beyond, all waiting for your discovery. With ClickCove, your journey to indulgence begins with just one click.
         </p>
-        <div class="mt-10 flex items-center justify-center gap-x-2">
+        <div className="mt-10 flex items-center justify-center gap-x-2">
           <button
             type="button"
-            class="rounded-md bg-lime-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            className="rounded-md bg-[#1BBFE9] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
-            View Docs
+            What's New
           </button>
           <button
             type="button"
-            class="rounded-md border bg-lime-700 border-black px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="rounded-md border bg-[#1BBFE9] border-black px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
           >
             Get Started
           </button>

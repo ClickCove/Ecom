@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const ProductCard = ({ imageUrl, productName }) => {
+const ProductCard = ({ imageUrl, productName, productId,id  }) => {
   return (
 <>
 
@@ -11,7 +12,8 @@ const ProductCard = ({ imageUrl, productName }) => {
         </div>
         <div className="contentBx">
           <h2>{productName}</h2>
-          <a href="#">Buy Now</a>
+          <Link to={`/product/${id}`}>Buy Now</Link>
+          {/* <a href="#">Buy Now</a> */}
         </div>
       </div>
     </div>
